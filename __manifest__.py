@@ -8,7 +8,7 @@
     "license": "AGPL-3",
     "website": "https://github.com/OCA/server-tools",
     "category": "Tools",
-    "depends": ["excel_import_export", "sale_management", "purchase", "crm"],
+    "depends": ["excel_import_export", "sale_management", "purchase", "crm","conf2"],
     "data": [
         "import_export_sale_order/actions.xml",
         "import_export_sale_order/templates.xml",
@@ -22,6 +22,7 @@
         "report_crm_lead/security/ir.model.access.csv",
         "import_sale_orders/menu_action.xml",
         "import_sale_orders/templates.xml",
+	"espacios_import/templates.xml",
         # Use report action
         "report_action/sale_order/report.xml",
         "report_action/sale_order/templates.xml",
